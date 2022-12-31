@@ -1,0 +1,39 @@
+body {
+  background-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+section {
+  background-color: #d9d9d9;
+  margin: 20px auto;
+  max-width: 470px;
+}
+
+.btn-nav {
+  display: inline-block;
+  text-decoration: none;
+  padding: .8rem 1rem;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #000000;
+  background-color: #f2f2f2;
+  font-family: "Times New Roman", Times, serif; 
+  color:  #000;
+  
+}
+
+.btn-nav:hover {
+  color: #fff;
+  background-color: #000;
+  transition: background-color .15s ease-in-out;
+  
+}
+
